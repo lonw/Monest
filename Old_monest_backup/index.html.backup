@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Monest 华旗金融</title>
+<link rel="stylesheet" href="css/mainmenustyles.css">
+<link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+	<div class="wrapper">
+        <div id="wrapper_nav">
+    	<div id="container_top" class="container_12 clearfix">
+        	<header class="container_12">
+            	<div id="logo" class="grid_2">
+                </div>
+
+                <nav class="grid_10">
+                	<ul>
+		  				<li><a href="mainmenu.html"> <p3><strong>主页</strong></a></li>
+                    	<li><a href="mortgagecn_home.html"> 
+                   	    <strong>贷款融资</strong></a></li>
+                   		<li><a href="investmentcn.html"> <strong>资产管理</strong></a></li>
+                    	<li><a href="currencyexchangecn.html"> <strong>货币汇兑</strong></a></li>
+                    	<li><a href="aboutus.html"><strong>关于我们</strong></a></li>
+						<li><a href="contactus.html"> <strong>联系我们</strong></a></li>
+                        <li> <a href="eng/mainmenu.html"><img src="image/en.png" width="16" height="12"><strong>ENG</strong></a> </li>
+                       
+             		</ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+        <div class="banner">
+            <div class="mainimage">
+                            <div class="caption container_12 clearfix">
+               		<div class="captionsplit">
+                	</div>
+                	<h4>实现华人资本国际化的梦想 </h4>
+                	<h3>资本运行桥梁</h3>
+                	<div class="h4">
+                	<h4>Idea For Investor</h4>
+                    <h5>稳健 长久</h5>
+                    </div>
+                    </div>
+            </div>
+        </div>
+                   
+        <div class="container_12">
+        <div class="main clearfix">
+        	<div class="topblock">
+        		<h1>MONEST’S SERVICES</h1>
+        	</div>
+            <div class="tierone">
+            	<div class="oneimage">
+                </div>
+                <div class="onetext">
+                <p>请让华旗金融来帮助你在面对这么多的选择的时候做出一个正确的决定。 一个好的决定会对您的理财产生非常积极的影响。<br><a href="mortgagecn_home.html"> <p3>了解更多</a></p>
+                </div>
+            </div>
+            <div class="tiertwo">
+            	<div class="twoimage">
+                </div>
+                <div class="twotext">
+                <p>。华旗金融对于每位客户量身定做的投资计划.通过债务重组，房屋第二贷款，降低个人债务利息的方法科学，合理地进行投资理财。<br><a href="investmentcn.html"> <p3>了解更多</a></p>
+                </div>
+            </div>
+            <div class="tierthree">
+            	<div class="threeimage">
+                </div>
+                <div class="threetext">
+                <p>华旗金融的外汇兑换业务是最好的替代银行为您进行外汇兑换的机构。我们的宗旨就是为您节省时间和减少不必要的手续费。<br><a href="currencyexchangecn.html"> <p3>了解更多</a></p>
+                </div>
+            </div>
+            <div class="mainline">
+            </div>
+            <div class="hand">
+            </div>
+            <div class="experience">
+            <h1>EXPERIENCE MONEST</h1>
+            </div>
+            <div class="splitline">
+            </div>
+            <div class="experiencetext">
+ <p>Centum金融集团是全加拿大发展最快，规模最大房屋贷款集团公司成立于2002年，目前全加拥有260余家分公司，2200余名专业贷款经纪, 特约代理超过40 家银行和金融机构贷款服务。Centum金融集团的使命是继续成为加拿大按揭贷款机构的领头人，以设置行业的专业性以及可靠性为己任，继续为客户提供最优质的服务。作为Centum金融集团的一员, 华旗金融从2009年开始就一直是全加拿大销售冠军Centum Financial 全国总公司于2011年4月6日举办。<br><a href="aboutus.html"> <p3>了解更多</a>
+            </div>
+        </div>
+        </div>
+        <div class="footer">
+        	<div class="firststage">
+            	<div class="footerlogo">
+                </div>
+                <div class="footertext2">
+                    <a href="mainmenu.html">网站地图</a></a><br>
+                    <a href="contactus.html">联系我们</a></a><br>
+                    <a href="aboutus.html">关于华旗金融</a></a><br>
+                </div>
+           	<div class="footertext3">
+            <p>联系<br>
+            10楼 1008号,250<br>
+            Consumers Road<br>
+			Toronto ON M2J 4V6</p>
+            </div>
+            <div class="footertext4">
+            <p> <br>
+            电话: 416-855-4565<br>
+            传真: 416-493-8158<br>
+			susanwang@monest.ca</p>
+            </div>
+            </div>
+        	<div class="lines">
+            </div>
+           
+            <div class="greyblock">
+            <div class="thelastline">
+            <p> © 1999-2015 Centum Monest Mortgage Inc. #12289 Each office is independently owned and operated</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

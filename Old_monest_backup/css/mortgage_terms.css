@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{
+	font-family:"NSimSun,微软雅黑";
+	font-weight:100;
+	font-weight:bold;
+	font-size:21px;
+}
+#language{
+	margin-left:754px;
+	margin-top:8px;
+	position:absolute;
+}
+h2{
+	font-family: Constantia, "Georgia", serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 20px;
+	color: #003300;
+}
+h3{
+	font-family: "NSimSun,微软雅黑";
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	color: #666666;
+}
+
+p{
+	font-family: "NSimSun",微软雅黑;
+	line-height: 1.7;
+	font-size: 12px;
+	color: #666666;
+}
+p2{
+	font-family:NSimSun,微软雅黑;
+	line-height:0px;
+	font-size:12px;
+	color:#AA812D;
+}
+p3{
+	font-family:NSimSun,微软雅黑;
+	line-height:0px;
+	font-size:12px;
+	color:#AA812D;
+}
+p4{
+	font-family:NSimSun;
+	line-height:0px;
+	font-size:12px;
+	color:#646668;
+}
+p5{
+	font-family: NSimSun;
+	line-height: 0px;
+	font-size: 12px;
+	color: #646668;
+	font-weight:bold
+}
+p6{
+	font-family:NSimSun,微软雅黑;
+	line-height:0px;
+	font-size:12px;
+	color:#AA812D;
+	font-weight:bold;
+}
+a{
+	font-family: NSimSun, "微软雅黑";
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+	font-size: 12px;
+}
+
+a1{	line-height:0px;
+	font-family:NSimSun,微软雅黑;
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	font-size:12px;
+}
+a:hover{
+	color:#AA812D;
+    transition: all .4s ease-in-out;
+}
+
+body {
+	font-family: "微软雅黑";
+	line-height: 1.7;
+	font-size: 12px;
+	color: #646668;
+	min-width: 960px;
+	margin: 0;
+	font-weight: lighter;
+	background-color: #F9F9F9;
+}
+
+
+
+div{
+	display:block;
+}
+
+.wrapper {
+    min-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+	background:#F9F9F9
+}
+
+#wrapper_nav {
+	background-color: rgba(0,51,0,1.00);
+	height: 70px;
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
+nav{
+	margin-top:20px;
+}
+#logo{
+	background-image:url(../image/logoheader.png);
+	background-size: contain;
+	background-repeat:no-repeat;
+	height: 60px;
+	width:124.457px;
+	margin-top: 8px;
+}
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 400;
+	color:#FFFFFF;
+}
+.banner{
+	z-index: -10;
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 197px;
+	background: rgba(0,75,0,1.00);
+	top: 0px;
+}
+
+.mainimage{
+	background-image:url(../image/mortage.png);
+	background-size:contain;
+	height:293px;
+	background-repeat:no-repeat;
+	width:960px;
+	position:relative;
+	margin:auto;
+	z-index:-11
+}
+
+.main{
+	position:absolute;
+	top:197px;
+	margin: 0 auto;
+    width: 960px;
+	height:600px;
+    min-width: 960px
+	margin:auto;
+	left:0px;
+	right:0;
+}
+.title{
+	width:725px;
+	position:absolute;
+	margin-left:236.192px;
+}
+
+.horizontaldivider{
+    width: 980px;
+    height: 1px;
+    background-color: #DBDBDB;
+    position: absolute;
+    margin-top: 75px;
+}
+.verticaldivider{
+	width: 1px;
+	height: 1240px;
+	position: absolute;
+	background-color: #DBDBDB;
+	margin-top: 95px;
+	margin-left: 220px;
+}
+.rightbox{
+	margin-top:110px;
+	float: left;
+    width: 165px;
+}
+.maintext{
+	margin-top:85px;
+	height: 500px;
+    width: 725px;
+   	position:absolute;
+	margin-left:236.192px;
+}
+
+.footer{
+	width: 100%;
+	position: absolute;
+	top: 1590px;
+	background: rgba(0,75,0,1.00);
+	height: 294.786px;
+	z-index: 9;
+}
+
+.lines{
+	margin-top: 130px;
+    height: 0.5px;
+	width:100%;
+    background-color: #9D9D9D;
+    position:absolute;
+}
+
+.firststage{
+	width: 960px;
+    position: absolute;
+    margin-top: 0px;
+    height: 126px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.footerlogo{
+	background-image:url(../image/logoheader.png);
+	height:76px;
+	width:110px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-top:24.092px;
+	float:right;
+}
+.footertext2{
+	margin-top: 24px;
+	line-height:25px;
+}
+.footertext3{
+	margin:auto;
+	width:141.988px;
+	height:99.67px;
+	position:absolute;
+	margin-top:32px;
+}
+.footertext4{
+	margin:auto;
+	width:141.988px;
+	height:99.67px;
+	position:absolute;
+	margin-top:32px;
+	margin-left:170px;
+}
+.greyblock{
+	height: 50.35px;
+	width: 100%;
+	background-color: rgba(0,51,0,1.00);
+	position: absolute;
+	margin-top: 244.378px;
+}
+
+.thelastline{
+	width:960px;
+	margin-top:0px;
+	margin:auto;
+}

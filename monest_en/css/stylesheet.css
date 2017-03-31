@@ -1,0 +1,365 @@
+body {
+    background-image: url("../images/bg/bg.png");
+    background-color: #19281e;
+		font-family: "Microsoft YaHei", "微软雅黑","NSimSun", "华文细黑", serif !important;
+}
+h1{
+	margin-top: 48px;
+	/*color: white;*/
+  font-size: 45px;
+	margin-bottom: 25px;
+  text-shadow: 1px 2px #eceaea;
+}
+/*h1:hover{
+	color: #a66a01;
+}
+
+h2{
+  text-shadow: 2px 2px #eceaea;
+}*/
+.navbar-nav>li>a{
+	padding-top: auto;
+	padding-bottom: auto;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+background-color: #0f930c;}
+
+.menu >.active>a, .menu >.active>a:focus, ..menu >.active>a:hover{background-color: #0f930c;}
+.top-header{
+		min-height: 45px;
+}
+#topheader>a{
+  font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.top-nav{
+		height: 150px;
+		background-color: #003300;
+}
+.opaque-navbar{
+  	top: 45;
+  	height: 130px;
+  	background-color: rgba(0,0,0,0.5);
+    border: 0;
+    background-color: #003300;
+    box-shadow: none;
+    opacity:0.75;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+}
+#logo {
+    background-image: url(images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 124.457px;
+    margin-top: 8px;
+    float: left;
+}
+
+.content {
+		margin-top: -50px;
+    overflow: hidden;
+    width: 100%;
+		/*min-height: 343px;*/
+		background-color: #fff;
+}
+.color-content{
+    /*margin: 0 auto 140px auto;*/
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+    /*min-height: 300px;*/
+    background-color: #003300;
+}
+
+.img-responsive{
+	width: 100%;
+}
+/*
+@media screen and (min-width: 768px){
+    CSS
+}*/
+
+#custom-nav {
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+    background-color: #003300;
+    box-shadow: none;
+    opacity:0.75;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+#custom-nav>li>a{
+	padding-top: 10px;
+	padding-bottom: 19px;
+}
+
+#custom-nav .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    border-top: 5px solid transparent;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 0;
+}
+/*#custom-nav .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top .5s ease, padding-bottom .5s ease;
+    -moz-transition: padding-top .5s ease, padding-bottom .5s ease;
+    transition: padding-top .5s ease, padding-top .5s ease, padding-bottom .5s ease;
+}*/
+#custom-nav.affix {
+  	height: 20px;
+    top: 0;
+    min-width: 100%;
+    background-color: #024602;
+    opacity: 1.0;
+    /*-webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;*/
+}
+@media screen and (max-width: 767px){
+    #wrapwrap {
+        padding-top: 50px;
+    }
+    .navbar-fixed-top {
+        z-index: 999;
+    }
+}
+
+@media (max-width: 992px) {
+
+  .opaque-navbar {
+    top:auto;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+  .content {
+      margin-top: 0px;
+    }
+    #topheader{
+      float:left!important;
+    }
+    #responsivelogotext{
+      font-size: 13px;
+      font-weight: 100;
+
+    }
+
+}
+
+.footer {
+	border:0;
+	background:none;
+	padding:0 0 60px;
+	font:12px/30px "Microsoft YaHei", "微软雅黑",'Arial', Helvetica, sans-serif;
+	color:#80878e;
+	z-index:5;
+}
+.footer h4 {
+	color:#fff;
+	padding-top:48px;
+	margin-bottom:14px;
+}
+.footer .footer-text {
+	font:18px/36px "Microsoft YaHei", "微软雅黑","Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.footer .footer-text a { color:#fff; }
+.footer .footer-text a:hover { color:#64a0bc; }
+.footer .social {
+	margin-bottom:17px;
+	padding-top:9px;
+}
+.footer .social li a span { font-size:22px; }
+.footer .social li+li { margin-left:25px; }
+.footer .address-2 { line-height:30px; }
+.footer .address-2 span { display:block; }
+.footer a { color:#80878e; }
+.footer a:hover { color:#fff; }
+.footer .textwidget ul li {
+	line-height:30px;
+	position:relative;
+	padding-left:17px;
+}
+/*.footer .textwidget ul li:before {
+	content:'â—';
+	position:absolute;
+	left:0;
+	top:-1px;
+	color:#fff;
+	font-size:9px;
+}*/
+.footer nav.footer-nav { float:none; }
+.footer nav.footer-nav ul { float:none; }
+.footer nav.footer-nav ul .current-menu-item a, .footer nav.footer-nav ul a:hover { color:#fff; }
+
+ul#horizontal-list {
+	/*min-width: 696px;*/
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+/*sub-page-nav*/
+.breadcrumb {
+    background-color: #64c162;
+  }
+/*Change the color of nav band name*/
+  .navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.logo_text{
+  font-size: 25px;
+}
+
+
+.img_border {
+   padding: 1px;
+   border: 10px solid #87b186;
+   background-color: #fff;
+}
+
+.text-field{
+  /* border: 1px solid #f3f3f3; */
+    padding: 13px 30px;
+    background: #335b33;
+    opacity: 0.9;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+     font-size: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.small-content{
+  width: 100%;
+  height: 127px;;
+}
+.small-option{
+  width: 100%;
+  height: 75px;
+}
+.p-text {
+  text-indent: 10px;
+}
+ #map { height: 100%; }
+ a:hover img {
+   transform: scale(1.15);
+ }
+ nav{
+   z-index:500;
+
+ }
+ .fixed{
+   position:fixed;
+   top:0;
+   width: 100%;
+ }
+ .nav-placeholder{
+   margin:0 0 0 0;
+ }
+
+     /* jssor slider bullet navigator skin 03 css */
+     /*
+     .jssorb03 div           (normal)
+     .jssorb03 div:hover     (normal mouseover)
+     .jssorb03 .av           (active)
+     .jssorb03 .av:hover     (active mouseover)
+     .jssorb03 .dn           (mousedown)
+     */
+     .jssorb03 {
+         position: absolute;
+     }
+     .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+         position: absolute;
+         /* size of bullet elment */
+         width: 21px;
+         height: 21px;
+         text-align: center;
+         line-height: 21px;
+         color: white;
+         font-size: 12px;
+         background: url('img/b03.png') no-repeat;
+         overflow: hidden;
+         cursor: pointer;
+     }
+     .jssorb03 div { background-position: -5px -4px; }
+     .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+     .jssorb03 .av { background-position: -65px -4px; }
+     .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+     /* jssor slider arrow navigator skin 03 css */
+     /*
+     .jssora03l                  (normal)
+     .jssora03r                  (normal)
+     .jssora03l:hover            (normal mouseover)
+     .jssora03r:hover            (normal mouseover)
+     .jssora03l.jssora03ldn      (mousedown)
+     .jssora03r.jssora03rdn      (mousedown)
+     */
+     .jssora03l, .jssora03r {
+         display: block;
+         position: absolute;
+         /* size of arrow element */
+         width: 55px;
+         height: 55px;
+         cursor: pointer;
+         background: url('img/a03.png') no-repeat;
+         overflow: hidden;
+     }
+     .jssora03l { background-position: -3px -33px; }
+     .jssora03r { background-position: -63px -33px; }
+     .jssora03l:hover { background-position: -123px -33px; }
+     .jssora03r:hover { background-position: -183px -33px; }
+     .jssora03l.jssora03ldn { background-position: -243px -33px; }
+     .jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+
+     .caret-up {
+         width: 0;
+         height: 0;
+         border-left: 4px solid rgba(0, 0, 0, 0);
+         border-right: 4px solid rgba(0, 0, 0, 0);
+         border-bottom: 4px solid;
+
+         display: inline-block;
+         margin-left: 2px;
+         vertical-align: middle;
+     }
+
+     .solution-risk{
+       background: url('../images/solution3/1.png') no-repeat;
+width: 180px;
+height: 183px;
+margin-left: auto;
+margin-right: auto;
+     }
